@@ -27,27 +27,27 @@ const sendTelegramNotification = async (message) => {
 // Setup Alchemy instances for multiple networks
 const alchemyInstances = {
   [Network.ETH_MAINNET]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.ETH_MAINNET,
   }),
   [Network.BSC_MAINNET]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.BSC_MAINNET,
   }),
   [Network.OPTIMISM]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.OPTIMISM,
   }),
   [Network.ZK_SYNC]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.ZK_SYNC,
   }),
   [Network.ARB_MAINNET]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.ARB_MAINNET,
   }),
   [Network.MATIC_MAINNET]: new Alchemy({
-    apiKey: 'iUoZdhhu265uyKgw-V6FojhyO80OKfmV',
+    apiKey: 'IZJfHgIr8yZI6-2PySqPIUDigJVcsofl',
     network: Network.MATIC_MAINNET,
   }),
   // Add other networks as needed
