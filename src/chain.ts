@@ -19,7 +19,7 @@ const arbitrum = defineChain({
   name: 'Arbitrum One',
   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   rpcUrls: {
-    default: { http: ['https://arb-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'] },
+    default: { http: ['https://arb-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'] },
   },
   blockExplorers: {
     default: {
@@ -42,7 +42,7 @@ const polygon = defineChain({
   name: 'Polygon',
   nativeCurrency: { name: 'MATIC', symbol: 'MATIC', decimals: 18 },
   rpcUrls: {
-    default: { http: ['https://polygon-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'] },
+    default: { http: ['https://polygon-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'] },
   },
   blockExplorers: {
     default: {
@@ -70,8 +70,8 @@ const zksync = defineChain({
   },
   rpcUrls: {
     default: {
-      http: ['https://zksync-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'],
-      webSocket: ['wss://zksync-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'],
+      http: ['https://zksync-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'],
+      webSocket: ['wss://zksync-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'],
     },
   },
   blockExplorers: {
@@ -100,7 +100,7 @@ const mainnet = defineChain({
   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   rpcUrls: {
     default: {
-      http: ['https://eth-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'],
+      http: ['https://eth-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'],
     },
   },
   blockExplorers: {
@@ -128,7 +128,7 @@ const optimism = defineChain({
     decimals: 18,
   },
   rpcUrls: {
-    default: { http: ['https://opt-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'] },
+    default: { http: ['https://opt-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'] },
   },
   blockExplorers: {
     default: {
