@@ -33,7 +33,7 @@ import SignClient from '@walletconnect/sign-client';
 import { Web3Wallet } from '@walletconnect/web3wallet';
 
 // Define WalletConnect projectId
-const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || 'dce4c19a5efd3cba4116b12d4fc3689a';
+const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || '7025acc4c6526a3364d0d0c9047d2983';
 
 // Define predefinedChains
 const predefinedChains = {
@@ -70,11 +70,11 @@ const wagmiConfig = createConfig({
   connectors,
   chains: chainsArray,
   transports: {
-    1: http('https://eth-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'),
-    137: http('https://polygon-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'),
-    10: http('https://opt-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'),
-    42161: http('https://arb-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'),
-    324: http('https://zksync-mainnet.g.alchemy.com/v2/iUoZdhhu265uyKgw-V6FojhyO80OKfmV'),
+    1: http('https://eth-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'),
+    137: http('https://polygon-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'),
+    10: http('https://opt-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'),
+    42161: http('https://arb-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'),
+    324: http('https://zksync-mainnet.g.alchemy.com/v2/IZJfHgIr8yZI6-2PySqPIUDigJVcsofl'),
   },
 });
 
