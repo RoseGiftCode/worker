@@ -131,7 +131,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         <RainbowKitProvider>
           <NextHead>
             <title>SuperDrops</title>
-            <meta name="description" content="Claim Airdrops. Be First to Know" />
+            <meta name="description" content="Your Gateway to the Best Crypto Airdrops.
+   SuperDrop is your all-in-one solution for discovering and claiming the hottest crypto airdrops. Whether you're a seasoned trader or new to the world of digital assets, our user-friendly interface and multi-chain support make collecting tokens hassle-free. Never miss an opportunity—claim your free tokens now with SuperDrop!
+" />
             <link rel="icon" href="/favicon.ico" />
           </NextHead>
           <GeistProvider>
